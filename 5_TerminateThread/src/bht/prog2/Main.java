@@ -1,27 +1,16 @@
 package bht.prog2;
 
 public class Main {
-
 	public static void main(String[] args) throws Exception {
 		System.out.println("Main started");
 		Thread counterThread = new CounterThread();
 		counterThread.start();
-		
-		Thread.sleep(1000);
-		
 		counterThread.interrupt(); 
-		counterThread.join(); 
-		
 		System.out.println("Main end");
 	}
-
 }
 
 class CounterThread extends Thread {
-	public CounterThread() {
-		super("CounterThread");
-	}
-
 	@Override
 	public void run() {
 		System.out.println("CounterThread start");
