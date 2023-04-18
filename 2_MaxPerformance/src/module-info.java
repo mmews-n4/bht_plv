@@ -1,2 +1,2 @@
-module SingleThreadMaxPerformance {
+module bht.prog2 {
 }

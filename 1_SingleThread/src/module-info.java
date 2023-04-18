@@ -1,2 +1,2 @@
-module SingleThread {
+module bht.prog2 {
 }
