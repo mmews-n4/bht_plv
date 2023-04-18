@@ -1,0 +1,2 @@
+module bht.prog2 {
+}
